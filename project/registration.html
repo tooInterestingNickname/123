@@ -4,23 +4,43 @@
 <head>
     <meta charset="UTF-8">
     <title>Регистрация</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>Регистрация</h1>
-    <ul>
-        <a href="index.html">
-            <li>Главная</li>
-        </a>
-        <a href="menu.html">
-            <li>Каталог</li>
-        </a>
-        <a href="registration.html">
-            <li>Регистрация</li>
-        </a>
-    </ul>
-    <hr>
-    <footer>&copy;тут название компании. Все права защищены</footer>
+    <div class="wrapper">
+        <div class="content">
+            <div class="menu">
+                <ul>
+                    <a href="index.html">
+                        <li>Главная</li>
+                    </a>
+                    <a href="menu.html">
+                        <li>Каталог</li>
+                    </a>
+                    <a href="registration.html">
+                        <li>Регистрация</li>
+                    </a>
+                </ul>
+            </div>
+            <h1>Регистрация</h1>
+        <div class="forma">
+            <form action="#">
+                ФИО<input type="text" placeholder="Фамилия Имя Отчество">
+                Логин<input type="text">
+                Пароль<input type="password">
+                Почта<input type="email" placeholder="123@mail.com">
+                <input type="submit">
+                <input type="reset">
+            </form>
+        </div>
+            
+        </div>
+
+
+        <hr>
+        <footer>&copy;Тут название компании. Все права защищены</footer>
+    </div>
 </body>
 
 </html>
